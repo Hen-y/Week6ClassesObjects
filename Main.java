@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Exercise 1 - Student
-        System.out.println("--- Exercise 1: Students ---");
+        System.out.println("\n Exercise 1: Students");
         Student student1 = new Student();
         student1.name = "Mary";
         student1.studentNumber = "S1001";
@@ -21,7 +21,7 @@ public class Main {
         student2.displayDetails();
 
         // Exercise 2 - Car
-        System.out.println("\n--- Exercise 2: Cars ---");
+        System.out.println("\n Exercise 2: Cars");
         Car car1 = new Car();
         car1.brand = "Toyota";
         car1.model = "Corolla";
@@ -40,7 +40,7 @@ public class Main {
         car2.displayInfo();
 
         // Exercise 3 - Product
-        System.out.println("\n--- Exercise 3: Products ---");
+        System.out.println("\n Exercise 3: Products");
         Product p1 = new Product();
         p1.name = "Keyboard";
         p1.price = 350.0;
@@ -60,8 +60,8 @@ public class Main {
         p2.displayProduct();
         p3.displayProduct();
 
-        // Exercise 4 - Project entity: Expense
-        System.out.println("\n=== Exercise 4: Patients ===");
+        // Exercise 4 - Project entity: Patients
+        System.out.println("\n Exercise 4: Patients");
         Patient patient1 = new Patient();
         patient1.name = "Chanda Mwila";
         patient1.reason = "Fever and headache";
