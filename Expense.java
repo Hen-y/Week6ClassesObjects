@@ -1,13 +1,14 @@
-public class Expense {
-    String description;
-    String category;
-    double amount;
-
-    boolean isLarge() {
-        return amount >= 500;
+public class Product {
+    String name;
+    double price;
+    int quantity;
+ 
+    double totalValue() {
+        return price * quantity;
     }
-
-    void displayExpense() {
-        System.out.println(description + " | " + category + " | K" + amount + " | Large: " + isLarge());
+ 
+    void displayProduct() {
+        System.out.println(name + " | K" + price + " | Qty: " + quantity + " | Total: K" + totalValue());
     }
 }
+ 
